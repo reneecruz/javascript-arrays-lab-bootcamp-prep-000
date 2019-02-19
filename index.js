@@ -30,7 +30,7 @@ function destructivelyAppendKitten(name) {
  }
  
  function removeLastKitten(name) {
-   var removeLastKitten = kittens.slice(kittens.length);
+   var removeLastKitten = kittens.slice(-1);
    return removeLastKitten;
  
  }
